@@ -1,0 +1,182 @@
+body {
+    font-family: 'Roboto', 'Ubuntu+Condensed';
+    width: 100%;
+}
+
+.hr-red{
+    color: red;
+    border: 2px solid;
+}
+
+
+/* ===BLOCK-1=== */
+
+.block-1 {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/bg-header-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block-1 .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.block-1 .background-black {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.block-1 .background-black .header-text {
+    position: relative;
+    top: 175px;
+    color: white;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.phone {
+    margin-right: 10px;
+    color: white;
+}
+
+.snetworks {
+    margin-top: 20px;
+}
+
+.snetworks a {
+    color: white;
+}
+
+/* ===BLOCK-2===*/
+
+.block-2 {
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+    padding-top: 10px;
+}
+
+.block-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.block-text .block-text-1 {
+    margin: 5px 5px;
+}
+
+/* ===BLOCK-3===*/
+
+.block-3 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bg-block-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block-3 .background-black-2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.zagolovok{
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+}
+
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.review {
+    margin: 10px 10px;
+    color: white;
+}
+
+.review img{
+    width: 310px;
+    height: 392px;
+}
+
+
+/* ===BLOCK-4===*/
+
+.block-4 {
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+    text-align: center;
+}
+
+.photo-gallery h1 {
+    margin-top: 15px;
+}
+
+.photo-gallery img {
+    width: 300px;
+    height: 382px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+/* ===BLOCK-5===*/
+
+.block-5 {
+    width: 100%;
+    height: 100%;
+}
+
+.block-5-contact h1 {
+    text-align: center;
+}
+
+.block-5-contact form {
+    width: 50%;
+    padding: 10px 10px;
+}
+
+.block-5-contact p {
+    padding: 10px 10px;
+}
+
+.maps{
+    margin-bottom: 10px;
+}
+
+/* ===FOOTER===*/
+
+footer{
+    background-color: black;
+    height: 30px;
+    text-align: right;
+    color: white;
+    font-size: 12px;
+}
+
+
+footer .container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}

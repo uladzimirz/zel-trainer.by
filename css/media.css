@@ -1,0 +1,40 @@
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .body {
+        width: 100%;
+    }
+    .block-1 {
+        background-image: url(../img/bg-header-mobile.jpg);
+    }
+
+    .block-1 .background-black .header-text {
+        position: relative;
+        top: 110px;
+        color: white;
+    }
+
+    .media {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .reviews {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block-3 {
+        background-image: url(../img/bg-block-3-mobile.jpg);
+    }
+    
+    .block-5-contact form{
+        width: 100%;
+    }
+
+}
